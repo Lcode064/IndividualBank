@@ -31,21 +31,21 @@ public class AdminController {
         @FXML
     void cryptorecords(ActionEvent event) throws FileNotFoundException, IOException
     {
-       File file=new File("C:\\Users\\Lcode064\\Documents\\NetBeansProjects\\indi\\src\\NtateMafereka\\\\crypto.txt");    
+       File file=new File("crypto.txt");    
         Desktop.getDesktop().print(file);
     }
 
     @FXML
     void ewalletrecords(ActionEvent event) throws FileNotFoundException, IOException 
     {
-        File file=new File("C:\\Users\\Lcode064\\Documents\\NetBeansProjects\\indi\\src\\NtateMafereka\\\\wallet.txt");    
+        File file=new File("wallet.txt");    
         Desktop.getDesktop().print(file);
     }
 
     @FXML
     void loginRecords(ActionEvent event) throws FileNotFoundException, IOException
     {
-        File file=new File("C:\\Users\\Lcode064\\Documents\\NetBeansProjects\\indi\\src\\NtateMafereka\\\\login.txt");    
+        File file=new File("login.txt");    
         Desktop.getDesktop().print(file);
         
     }
@@ -53,7 +53,7 @@ public class AdminController {
     @FXML
     void paidfees(ActionEvent event) throws FileNotFoundException, IOException
     {
-        File file=new File("C:\\Users\\Lcode064\\Documents\\NetBeansProjects\\indi\\src\\NtateMafereka\\\\fees.txt");    
+        File file=new File("fees.txt");    
         Desktop.getDesktop().print(file);
     }
 
@@ -61,14 +61,14 @@ public class AdminController {
     void registrationrecords(ActionEvent event) throws FileNotFoundException, IOException
     {
        
-        File file=new File("C:\\Users\\Lcode064\\Documents\\NetBeansProjects\\indi\\src\\NtateMafereka\\\\reg.txt");    
+        File file=new File("reg.txt");    
         Desktop.getDesktop().print(file);
     }
 
     @FXML
     void sendMoneyRecords(ActionEvent event) throws FileNotFoundException, IOException
     {
-        File file=new File("C:\\\\Users\\\\Lcode064\\\\Documents\\\\NetBeansProjects\\\\1\\\\src\\\\pkg1\\\\sendmon.txt");    
+        File file=new File("sendmon.txt");    
         Desktop.getDesktop().print(file);
        
 
